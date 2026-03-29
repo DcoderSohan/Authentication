@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/v1",
+  baseURL: "https://authentication-i4ep.onrender.com/api/v1",
 });
 
 // Attach token to every request automatically
